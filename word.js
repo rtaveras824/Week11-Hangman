@@ -7,8 +7,6 @@
 exports.compare = function(correct, guess) {
 	if (correct.toString() === guess.toString()) {
 		//you win
-		//reset game
-		console.log('You win!');
 		return true;
 	}
 }
